@@ -18,7 +18,7 @@ router.get("/", (context) => {
             <div class="info">
               <h1>2048</h1>
             </div>
-            <span id="result"><b>看你能不能2048哇哇哇(利用上下左右方向鍵去玩)</b></span>
+            <span id="result"><b>2048:利用上下左右方向鍵來操作</b></span>
         <div class="grid"></div>
     </body>
 </html>`;
