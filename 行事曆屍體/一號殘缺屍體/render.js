@@ -9,7 +9,7 @@ const month_olympic = [31,29,31,30,31,30,31,31,30,31,30,31];
 const month_normal = [31,28,31,30,31,30,31,31,30,31,30,31];
 const week=['Sun.','Mon.','Tue.','Wed.','Thurs.','Fri.','Sat.']
 
-function daysMonth(month, year) {
+function daysInMonth(month, year) {
     if ( year%4===0 && year%100!==0 || year%400===0 ) {
         return (month_olympic[month]);
     } else {
